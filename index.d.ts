@@ -4,7 +4,7 @@ import {ICard as _ICard} from "./interfaces/ICard";
 export = Koo;
 export as namespace Koo;
 declare namespace Koo {
-    export type CardOption = _CardOption;
+    type CardOption = _CardOption;
 
-    export interface ICard extends _ICard{}
+    interface ICard extends _ICard{}
 }
